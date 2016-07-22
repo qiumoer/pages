@@ -1,0 +1,240 @@
+/*基础设置开始*/
+body,html,table,tr,td,ul,ol,li,dl,dt,dd,img,div,p,input,em,a,button,pre{margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+ul,ol,li,dl,dt,dd{list-style: none;}
+input,img,button{border: 0;background: none}
+body{font: 12px/22px "microsoft yahei";}
+a{text-decoration: none;}
+.left{float: left;}
+.right{float: right;}
+.clear:after{content: ".";display: block;clear:both;overflow: hidden;height: 0;visibility:hidden;}
+body a:hover{color:#f00;text-decoration: underline;}
+/*基础设置结束*/
+/*=====================================top============================*/
+.topImgs{width:100%;height:80px;background: url(../images/topimg.jpg) no-repeat center;}
+/*=======wariptop=========*/
+.WaripTop{height:100%;width:100%;}
+/*====top====*/
+.warip-top{width:100%;height:25px;border: 1px solid #e5e5e5;background-color: #eeeeee;}
+.top{width:1190px;margin:0 auto;}
+.top li{float: left;line-height: 26px;color:#666}
+.xian{margin:0 14px 0 16px;color:#eee}
+.xianA{margin-right: 0;}
+.xianB{margin-right:10px}
+.denglu a{color:#ff6600;}
+.top li a:hover{color:#f00;text-decoration: underline;}
+#huanying{margin-right: 12px;}
+#tuichu{
+	display: none;
+}
+.listA{background: url(../images/shouji.jpg) no-repeat 0 6px;}
+.listB{position:relative; width:80px;}
+.myding.active{background: #fff;position: relative;z-index: 1000;margin:0 -1px;height:24px;border:1px solid #eee;border-bottom: none;}
+.listB .mayxie{display: block;padding:0 10px;height:26;text-align: center;}
+.listB .mayxie:hover{background: #fff;line-height: 25px;width:60px;}
+.jiao{border-color: #666 transparent transparent transparent ;border-style:solid;border-top:5 0 5 0;width:0;height: 0;position:absolute;left:85px;top:10px}
+.dingdan{background: #fff;width:165px;height:auto;position:absolute;right: 0;top:24px;border:1px solid #eee;z-index: 990;display: none;border-top:0;}
+.dingdan li{line-height:26px;width:50px;border-bottom:1px dashed #eee;padding:3px 3px;margin:0 12px;}
+.erweima{width:220px;border:1px solid #eee;height:130px;position: absolute;right:0;top:24px;z-index: 990;display: none;background: #fff;border-top:0;}
+.erweima img{display: inline-block;width: 100px;height:120px;padding:10px 5px 0;float: left;}
+.minimg{position: relative;top:3px;}
+.liseD{padding-top:5px;height:20}
+.liseD img{display: block;}
+/*=========log==========*/
+.log{width:1190px;height:77px;margin:0 auto;overflow: hidden;}
+.logLeft{width:420px;padding:15px 0 0 0;}
+.logLeft img{display: block;}
+.logCen{width:340px;margin-left:118px;padding-top:16px;color:#ccc}
+.input1{width:272px;height:26px;border:2px solid #d5d5d5;line-height: 28px;color:#000;border-right:0;text-indent: 20px;}
+.input2{width:65px;height:30px;text-align:center;background-color: #000;line-height: 30px;color:#fff}
+.resou a{line-height:30px;color:#888;margin-left:7px;}
+.resou a:hover{color:#f00;text-decoration:underline}
+.gouwuche{width:84px;height:30px;border:1px solid #E5E5E5;border-radius:2px;color:#666;margin:20px 0 0 185px;background: url(../images/gouwuche.jpg) no-repeat 10px center;padding-left:40px;line-height:32px;}
+.gouwuche.active{background: #ff6d00;}
+.gouwuche i{font-style:normal;color:#f00;margin:3px}
+
+/*=======nav===========*/
+.waripNav{width:100%;height:34px;background: #a21f25; position: relative;}
+.nav{width:1190px;height:34px;margin:0 auto;line-height: 32px;color:#fff;}
+.candanlan{width:190px;height:34px;position: relative;}
+.fenlei{width:190px;height:34px;background: #b9363d;text-align:center;font-size:14px;}
+
+/* =========菜单栏====== */
+.caidan{height:385px;width:160px;position: absolute;left: 0;top:34px;z-index: 9999;display: none}
+.caidanUl{width:190px;height:385px;background: #1e1908;position: relative;}
+.caidanUl li{width:160px;height:42px;line-height:42px;padding:0 15px;display: block;}
+.caidanUl li a{color:#fff;}
+.caidanUl li span{display: inline-block;width:18px;height:42px;background: url(img/xie.jpg) no-repeat 0 center;margin-right:15px;}
+.caidanRight{width:300px;position: absolute;left: 190px;top:0; padding:0 10px;display: none;z-index: 9999;background: #fff}
+.caidanUl .caidanRight a{color:#666;margin-right:5px;}
+.caidanUl .caidanRight a:hover{color:#f00; text-decoration: underline;}
+.one{width:300px;height:100%;padding:0 3px;}
+.oneTop{height:40px;width:294px;line-height:40px;border-bottom: 2px solid #000;padding:0 3px;}
+.oneTop h4{height:40px;width:100px;padding-left:25px;background: url(img/xie.jpg) no-repeat 0 center;font-size:16px;color:#000;}
+.oneTop a{width:50px;line-height: 40px;color:#eee;}
+.candanlan:hover .caidan{display: block;}
+
+/* =========菜单栏结束===== */
+/* ==========================right============= */
+.cedeBar_b{height:100%;width:250px;position: fixed;right:-215px ;top:0;z-index: 4444;background: #000}
+.cedeBar{height:500px;}
+.cedeBar_b ul{width:35px;color:#fff;height:360px}
+.cedeBar_b ul li{height:90px;font-size:18px;font-weight: bold;text-align: center;width:35px;overflow: hidden;}
+.cedeBar_b ul li.active{background: #ce3c3b}
+.cedeBar_b .fanhuiTop{font-size:16px;line-height: 150px}
+.pink{width:215px;height:500px;position: relative;}
+.cedeBar_RightA{position: absolute;}
+.cedeBar_RightB{position: absolute;}
+.cedeBar_RightC{position: absolute;}
+.cedeBar_RightD{position: absolute;}
+.cedeBar_b .rigBot{height:100px;color:#fff;width:35px}
+.rigBot p{height:30px;width:35px;line-height: 35px;padding-left:5px;padding-top:5px;position: relative;}
+.rigBot p.hong{background:#f00}
+.rigBot span{display: block;width:50px;height:35px;text-align:center;background: #666;position: absolute;right:-50px;top :0;display: none;}
+
+.fanhuiTop{width:37px;height:50px;position: fixed;right:0;bottom: 0;z-index: 9999;display: none}
+.butn{width:37px;color:#fff;font-size:18px;font-weight: bold;line-height: 24px;cursor:pointer;}
+/*===========================================*/
+.shuxian{margin:0;}
+.navdaohang{width:750px;height:34px;margin:0 auto;}
+.navdaohang li{float: left;display: inline;position: relative;}
+.navdaohang  .shouye{background: #444;}
+.navdaohang>li>a{display: inline-block;padding:0 18px;color:#fff;font-size:12px;line-height: 34px;background: url(img/xian.jpg) no-repeat right center;}
+.navdaohang .lastA{background: none}
+.navdaohang>li>a:hover{background: #444;}
+.bisha a{display: inline-block;margin:0 8px;color:#fff;}
+.bisha a:hover{color:#ffe404;text-decoration:underline}
+/*======man=======*/
+.navdaohang  .navyundong .man{width:668px;height:292px;z-index: 999;background: #fff;display:none;position: absolute;left: 0;top:34px}
+.navdaohang   .navyundong .man h3{font-size:18px;font-weight:900;line-height: 34px;color: #000}
+.navdaohang .navyundong .man li{float: left;}
+.navdaohang   .navyundong .yundong,.navdaohang .navyundong .fuzhuang{width:110px;padding:0 5px;}
+.navdaohang   .navyundong .man a{line-height:24px;color:#666;}
+.navdaohang   .navyundong .man a:hover{color:#f00}
+.navdaohang  .navyundong .pinpai{width:255px}
+.navdaohang   .navyundong .pinpai a{display: inline-block;width:65px;height:35px;margin-right:1px;}
+.navdaohang  .navyundong .pinpai a:hover{border:1px solid #eee;width:63px;height:33px;}
+/* ================main============== */
+.main{width:988px;height:312px;border:1px solid #eee;margin:0 auto;margin-top:1px;overflow: hidden;}
+.main a{color:#333;}
+.new{height:32px;background: #eee;line-height: 32px;}
+.new h3{font-size: 16px;display: inline-block;}
+.new span{color:#333;margin-left:5px; }
+.new i{color: #f00;margin:0 3px;font-style:normal;font-weight: bold;}
+.time,.mold{height:40px;border-bottom: 1px dashed #eee;line-height: 40px}
+
+.time span,.mold span,.functionlity span,.brand span{display: inline-block;width:60px;color: #333;text-align: right;margin-right: 10px}
+.time a,.mold a,.functionlity a{margin-right:30px;display: inline-block;}
+.mold i{color:#333;font-style:normal;}
+.functionlity{height:63px;border-bottom: 1px dashed #eee;}
+.functionlity p{line-height: 30px;}
+.functionlity span,.brand span{line-height:30px;}
+.brand{height:100px;border-bottom: 1px dashed #eee;overflow: hidden;}
+.brandC{width: 920px}
+.pin{width:60px;height:100px;line-height: 60px} 
+.brandC dt{float: left;width:57px;height:33px;margin:10px;height:;}
+.brandC a{display: inline-block;width: 57px;height:33px;}
+.brandC a:hover{border:1px solid #eee;}
+/* ==========================paixu====================== */
+.paixu{height:35px;border-top: 5px solid #999;line-height: 36px;width:990px;margin:0 auto;overflow: hidden;background: #eee;}
+.paixuL {width:355px;text-indent: 20px}
+.paixuL button{height:25px;line-height: 25px;color: #fff;width:50px;border-radius: 2px;margin-right:3px;text-align: left;outline: none; background: url(img/list_icon.png) no-repeat  34px -158px #999; text-indent: 5px }
+.paixuR {width:350px;}
+.paixuR span{color:#333;line-height: 35px;margin-right:5px;}
+.shangpin i{color:#f00;font-weight: bold;font-style:normal;}
+.btn,.inp1,.inp2{
+	width:45px;
+	line-height: 24px;
+	text-align: center;
+	border:1px solid #666;
+}
+.btn{
+	color:#333;
+	border:0;
+
+}
+.inp1{
+	display: none;
+}
+
+.pic{
+	width:990px;
+	height:100%;
+	margin:0 auto;
+
+}
+.pic dl{
+	width:173px;
+	height:240px;
+	margin:20px 0 20px 20px;
+	float: left;
+	overflow: hidden;
+
+}
+.pic dl dt{
+	height:138px;
+	padding-top:15px;
+	padding-left:15px;
+	border:1px solid #eee;
+}
+.pic dl dd{
+	height:85px;
+	line-height: 24px;
+}
+.jiage {
+	line-height:24px; 
+}
+.jiage span{color: #f00;
+	margin-right:10px;
+}
+.pic dl dd pre{
+	color:#000;
+	line-height: 24px;
+}
+.pic .shouchu{
+	color:#333;
+	line-height: 24px
+}
+.pic .shouchu i{
+	font-weight: normal;
+	color:#f00;
+	font-style: normal;
+}
+/*=============picimg============*/
+/* ===============================mignpai======================== */
+.mingpai{height:143px;margin-right:-1px;padding-bottom: 26px;background: #fff;width:1188px;overflow: hidden;margin :0 auto}
+.sanye{border-left:1px solid #ccc;border-bottom: 1px solid #ccc}
+.sanye li{float: left;width:117px;height:69px;border-top:1px solid #ccc;border-right:1px solid #eee;}
+.sanye li a{display: block;width:117px;height:69px;}
+.sanye li:hover{background: #eee}
+/* =================================shangpin=================== */
+.shangpin{height:205px;background: #fff;width:1190px;margin:0 auto;overflow: hidden;}
+.xianTop{height:20px;line-height: 20px}
+.xianL,.xianR{width: 533px;border:1px solid #999;margin-top:9px;}
+.cent{display:inline-block;font-size:16px;color:#666;padding:0 28px;line-height: 20px}
+.imgA{width:148px;height:188px;text-align: center;vertical-align: middle;margin-top:-20px;}
+.imgA span{width:0;height:100%;display: inline-block;vertical-align:middle;}
+.imgA a{display: block;height:118px;text-align: center;color:#000;}
+.imgA a h3{font-size:14px;height:37px;margin-top:25px;}
+.imgA a:hover{color:#f00;text-decoration: underline;}
+.imgA a img{display: inline-block;width:80px;height:80px;}
+.aA{height:60px;border-right:1px dashed #999;width:148px;margin-top:-10px;padding-top:10px;}
+.aA a{float: left;display: inline-block;padding:0 15px;line-height: 17px;height:17px;color:#666;}
+.bk{border:2px solid #ce3c3b;width:100%;margin: 20px 0 12px 0;}
+/* ===================================foor======================== */
+.footWarip{width:1190px;height:225px;margin:0 auto;}
+.footWarip .f{float:left;height:135px;padding:60px 0 0 50px}
+.footWarip .f1{width:210px;height:195px;border-right:1px solid #dedede;padding:0px 0px 0px 16px}
+.footWarip .f1 .p1{text-indent:26px;background:url(img/t.png) no-repeat;color:#b4b4b4}
+.footWarip .f1 .p1 span{font-weight:bolder;font-size:13px;color:#999}
+.footWarip .f1 .p2{color:#bd0d18;font-style:italic;font-weight:900;font-size:17px}
+.footWarip .f1 .p3{color:#b4b4b4}
+.footWarip .f1 div{border:1px solid #d9d9d9;height:18px;width:78px;background:#fff url(img/ewm.png) no-repeat 9px 9px;padding-top:76px;text-align:center;margin:13px 16px 0 0}
+.footWarip .f2{width:182px;background:url(img/2014052815002.png) no-repeat 50px 5px;border-left:1px solid #fff;}
+.footWarip  h3{font-size:14px;color:#676767;font-weight:bold;line-height:30px;}
+.footWarip  ul a{color:#989898;line-height:19px;}
+.footWarip  ul a:hover{color:#52524f}
+.footWarip .f3{width:179px;background:url(img/2014052815003.png) no-repeat 50px 5px;}
+.footWarip .f4{width:186px;background:url(img/2014052815004.png) no-repeat 50px 5px}
+.footWarip .f5{width:152px;background:url(img/2014052815005.png) no-repeat 50px 5px}
+

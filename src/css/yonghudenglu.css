@@ -1,0 +1,37 @@
+/*基础设置开始*/
+body,html,table,tr,td,ul,ol,li,dl,dt,dd,img,div,p,input,em,a,button{margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+ul,ol,li,dl,dt,dd{list-style: none;}
+input,img,button{border: 0; outline:0}
+body{font: 12px/22px "microsoft yahei";}
+a{text-decoration: none;}
+body a:hover{color:#f00;}
+.left{float: left;}
+.right{float: right;}
+.clear:after{content: ".";display: block;clear:both;overflow: hidden;height: 0;visibility:hidden;}
+/*基础设置结束*/
+/* =======================top======================== */
+.zhucetop{height:132px;width:986px;margin:0 auto; }
+.zhucetoplog{height:55px;padding-top:35px;}
+.zhucetoplog img{display: block;}
+.zhuceshouye{height:42px;color:#666;line-height: 42px;padding-left:830px;} 
+/* =======================list======================= */
+.zhuCenter{height:390px;width: 980px;margin:30px auto ;}
+.picL{width:380px;height:380px;}
+.shuru{width:390px;margin-left: 80px;}
+.shuruTop{height:26px;padding-top:10px;overflow: hidden;}
+.denglu{height:244px;border:2px solid #eee;width: 390px;background: #fafaf9}
+.denglu form{width:390px;height:210px;padding-top:34px;}
+.denglu label{width:90px;line-height: 30px;color: #000;text-align:right;display: inline-block;color:#333;}
+.denglu .inpt{margin-bottom:10px;}
+.denglu .inpt input{height:28px;width:230px;border:1px solid #eee;line-height: 30px;}
+.yanzheng input{height:28px;border:1px solid #eee;line-height: 30px;width:50px;}
+.yanzheng a{display: inline-block;line-height: 30px}
+.yanzheng span{color:#333;cursor:pointer;}
+.tijiao input{width:90px;height:38px;background: url(img/scn.png) no-repeat 0 -198px;color:#fff;font-size:14px;font-weight: bold;text-align:center;line-height: 38px;margin:20px 0 10px 50px;}
+.tijiao a{display: inline-block;margin-left:5px;color:#3366dd;}
+.isno{line-height: 26px;padding-left: 30px}
+.isno span{color:#333;margin-right:30px;}
+.isno a{color:#3366dd;}
+.lastAA{height:105px;color:#333;font-size: 12px;line-height: 24px;overflow: hidden;}
+.lastAA a{display:inline-block;height:40px;margin-right: 40px}

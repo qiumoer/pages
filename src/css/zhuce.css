@@ -1,0 +1,45 @@
+/*基础设置开始*/
+body,html,table,tr,td,ul,ol,li,dl,dt,dd,img,div,p,input,em,a,button{margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+ul,ol,li,dl,dt,dd{list-style: none;}
+input,img,button{border: 0; outline:0}
+body{font: 12px/22px "microsoft yahei";}
+a{text-decoration: none;}
+body a:hover{color:#f00;}
+.left{float: left;}
+.right{float: right;}
+.clear:after{content: ".";display: block;clear:both;overflow: hidden;height: 0;visibility:hidden;}
+/*基础设置结束*/
+/* =======================top======================== */
+.zhucetop{height:132px;width:986px;margin:0 auto; }
+.zhucetoplog{height:55px;padding-top:35px;}
+.zhucetoplog img{display: block;}
+.zhuceshouye{height:42px;color:#666;line-height: 42px;padding-left:830px;} 
+/*===================from=========================== */
+.from{width:780px;height:400px;margin:0 auto;border:3px solid #eee;background: url(img/zhicebg.jpg) no-repeat center bottom;margin-bottom: 30px}
+.from h3{height:30px;border:1px solid #efefef;background: #f8f8f8;text-indent: 10px;color: #333;font-size:16px;line-height: 32px;margin-bottom:32px}
+.tishi{height:24px;line-height: 24px;text-indent: 20px;color:#f00;}
+.from form{width:442px;border-right:1px dashed #eee;height:303px;}
+.from label{width:90px;line-height: 30px;color: #000;text-align:right;display: inline-block;color:#333;}
+.from .inpt{margin-bottom:15px;}
+.from .inpt input{height:28px;width:230px;border:1px solid #eee;line-height: 30px;}
+.from .yanzheng input{height:28px;border:1px solid #eee;line-height: 30px;width:50px;}
+.from .yanzheng a{display: inline-block;line-height: 30px}
+.from .yanzheng span,.from .zhuce span{color:#333;cursor:pointer;}
+.from .zhuce {height:40px;line-height: 40px;}
+.from .zhuce a{display: inline-block;margin-left:5px;color:#3366dd;}
+.from .zhuce a:hover{text-decoration: underline;}
+.from .queren input{width:90px;height:38px;background: url(img/scn.png) no-repeat 0 -198px;color:#fff;font-size:14px;font-weight: bold;}
+
+/* =======================right-====================== */
+.yizhuce{width:210px;padding-left:58px;padding-top:63px;}
+.yizhuce input{height:28px;width:89px;border:1px solid #f4da95;background: #f8eacb;line-height: 30px;text-align:center;color:#cc6666;font-weight: bold;font-size:14px;border-radius: 3px;margin:13px 0 44px 0;}
+.yizhuce p{color:#ff6600;font-size:14px;line-height: 28px}
+.yizhuce span{color:#333;margin-left:5px;}
+/* ====================foor========================
+.footcom{width:980px;margin:0 auto;}
+.hongxian{border:2px solid #ce3c3b;}
+.footLast{color:#666;}
+.footLast a{color: #333;margin: 0 8px;line-height: 26px}
+.copy{line-height: 26px;text-align:center;color: #333}
+.copy span{color:#f00;font-size:16px;font-weight: bold;} */
